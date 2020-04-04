@@ -25,11 +25,11 @@ function decrement(n) {
 }
 
 function makeInt(string) {
-  parseInt(`${string}`, 10)
+  parseInt(string, 10)
   return string
 }
 
 function preserveDecimal(string) {
-  parseFloat(`${string}`)
+  parseFloat(string)
   return string
 }
