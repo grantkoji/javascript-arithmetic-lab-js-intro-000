@@ -15,9 +15,9 @@ function divide(a, b) {
 }
 
 function increment(n) {
-  console.log(n +=1)
+  n +=1
 }
 
 function decrement(n) {
-  console.log(n -=1)
+  n -=1
 }
